@@ -16,3 +16,8 @@ for i in range(0, l):
 
 print(mylist)
 print("Smallest in the list :", smallest(mylist))
+
+# using sort() to find smallest
+
+mylist.sort()
+print("smallest in the list using sort() :", mylist[0])
