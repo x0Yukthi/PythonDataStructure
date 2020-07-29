@@ -15,9 +15,12 @@ for i in range(0, l):
     mylist.append(ele)
 
 print(mylist)
-print("Smallest in the list :", smallest(mylist))
+print("\nSmallest in the list :", smallest(mylist))
+
+# using min() to find smallest
+print("\nSmallest in the list using min() :", min(mylist))
 
 # using sort() to find smallest
 
 mylist.sort()
-print("smallest in the list using sort() :", mylist[0])
+print("\nsmallest in the list using sort() :", mylist[0])
